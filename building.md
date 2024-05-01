@@ -123,6 +123,11 @@ Note: The CMake preset `linux-ninja-clang` makes use of the LLD linker, which wi
   cd Vita3K
   ```
 
+- Clone submodules of the repo
+  ```sh
+  git submodule update --init --recursive
+  ```
+
 - Generate the project.
 
   ```sh
